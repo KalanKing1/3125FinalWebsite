@@ -1,0 +1,61 @@
+.shopTitle {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    height: 2%;
+}
+
+.top-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.faceted-search {
+    display: flex;
+    flex-direction: column; 
+    width: 20%;
+    margin-left: 2px;
+    margin-top: 2px;
+    outline-style: solid;
+    outline-color: rgba(109, 109, 109, 1);
+    outline-width: 2px;
+}
+
+.locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+
+.location img{
+    width: 400px;
+    position: relative;
+    display: inline-block; position: relative; width: 300px; height: 300px; overflow: hidden; border-radius: 50%;
+    
+}
+
+.location{
+    margin: 100px;
+}
+
+.location p {
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+
+.main-options li{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.sub-options li{
+    font-size: 20px;
+    padding-left: 20px;
+}

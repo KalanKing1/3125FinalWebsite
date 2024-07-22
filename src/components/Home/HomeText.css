@@ -1,0 +1,64 @@
+:root {
+    --bg-light-blue: rgb(172, 202, 223);
+    --bg-white: rgb(217, 225, 235);
+    --dark-blue: rgb(0, 4, 63);
+    --blue:rgb(25, 29, 94);
+    --text-light-blue:rgb(77, 158, 216);
+    --text-grey:rgb(97, 97, 97);
+}
+
+.home-container {
+    background: url('../../../public/Images/homePage.png')  no-repeat;
+    background-position: 10% 35%;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+}
+
+.item-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.adventure-text{
+    color:var(--dark-blue);
+    font-size: 60px;
+}
+
+.what-text{
+    color:var(--blue);
+    font-size:20px;
+}
+
+.home-btns{
+    display:flex;
+    justify-content: center;
+}
+
+Button {
+    background-color: var(--bg-light-blue);
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .home-container {
+        background: url('../../../public/Images/homePageMobile.png')  no-repeat;
+    }
+
+    .adventure-text{
+        font-size: 40px;
+    }
+    
+    .what-text{
+        font-size:20px;
+    }
+    .item-container {
+        width: 50%;
+    }
+}

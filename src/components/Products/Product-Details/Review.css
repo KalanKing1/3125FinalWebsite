@@ -1,0 +1,9 @@
+.review {
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 1%;
+    margin:20px;
+    padding: 5px;
+    width:80%;
+}

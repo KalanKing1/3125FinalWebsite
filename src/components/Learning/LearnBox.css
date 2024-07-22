@@ -1,0 +1,77 @@
+
+.top-box {
+    background: url('../../../public/Images/Learning.png') center center/cover no-repeat;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.left-box{
+    display:flex;
+    flex-direction: column;
+    height:85%;
+    width:30%;
+    background-color: var(--bg-light-blue);
+}
+
+.right-box {
+    display:flex;
+    flex-direction: column;
+    height:85%;
+    width:50%;
+    align-items: center;
+    background-color: var(--bg-white);
+}
+
+.center-box-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    height:50%;
+    width:100%;
+    padding: 40px;
+}
+
+.center-box-text{
+    text-align:center;
+    padding: 40px;
+}
+
+.left-box-text{
+    display:block;
+    text-align:start;
+    margin: 40px;
+    padding: 10px;
+    outline-color:black;
+    outline-width:1px;
+    outline-style: solid;
+    height:40%;
+    border-radius: 1%;
+    box-shadow: 10px 10px grey;
+}
+
+.oneStop-text{
+    padding-top:40px;
+    color: var(--text-grey)
+}
+
+h1.synopsis-text{
+    font-size: 20px;
+    color:var(--dark-blue);
+    text-align: center;
+}
+
+p.synopsis-text {
+    color: var(--blue);
+}
+
+.video-box{
+    display:flex;
+    justify-content: center;
+    height: 55%;
+    padding-top:20px;
+}
+

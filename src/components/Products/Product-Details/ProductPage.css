@@ -1,0 +1,52 @@
+.top-container{
+    display: flex;
+}
+
+.image-container{
+    display:flex;
+    width:60%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.desc-container{
+    display:flex;
+    width:40%;
+    flex-direction: column;
+}
+
+.p-image{
+    width:50%;
+    border-radius:0;
+    height: 500px;
+}
+
+.addReview-container{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.desc-container {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.review-name{
+    width:150px;
+    height: 30px;
+    margin: 5px;
+}
+
+.review-number{
+    width:50px;
+    height: 30px;
+    margin: 5px;
+}
+
+.review-text{
+    width: 80%;
+    height: 100px;
+    margin: 5px;
+}
